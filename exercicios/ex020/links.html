@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+                SELETORES PERSONALZIADOS
+                # = id 
+                . = class
+                : = pseudo-class
+                :: = pseudo-element
+                > = children
+        */
+        body {
+            font: normal 1em Arial, sans-serif;
+        }
+
+        a {
+            color: rgb(138, 88, 196);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(91, 57, 131);
+        }
+
+        a:hover {
+            color: rgb(40, 12, 71);
+            text-decoration: underline;
+            background-color: goldenrod;
+            border-radius: 3px;
+        }
+
+        a:active {
+            color: rgb(0, 0, 0);
+        }
+
+        .especial::before {
+            content: '☠ ';
+        }
+        .especial::after {
+            content: ' ☠';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <li><a href="">LoL Esports</a></li>
+    <li><a href="https://www.youtube.com/watch?v=hWYVGiPEEpc" class="especial">Pixies - Debaser</a></li>
+</body>
+</html>

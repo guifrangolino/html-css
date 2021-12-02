@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font: normal 1em Arial, sans-serif;
+            background-color: chocolate;
+            margin: 0px;
+        }
+
+        header {
+            background-color: mediumpurple;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(71, 71, 71);
+            color: white;
+            padding: 10px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.651);
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+
+        main {
+            background-color: mediumpurple;
+            padding: 3px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.651);
+            border-radius: 10px;
+        }
+
+        article > aside > span {
+            background-color: rgb(107, 107, 107);
+            color: white;
+            padding: 5px;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            font-style: italic;
+            text-align: center;
+            padding: 7px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o CBLOL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore non nostrum illum voluptatem mollitia quibusdam, laudantium eius culpa voluptatum magnam veniam. Vel ea voluptatum explicabo quae unde incidunt maxime?</p>
+                <aside>
+                    <span>Artigo escrito por Arnoldo</span>
+                </aside>
+            </article>
+            <article>
+                <h2>A porra da camiseta já esgotou FVCK FVCK FVCK</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo magnam obcaecati doloremque nam! Voluptates alias, libero eligendi minus error quos hic ipsum reprehenderit dignissimos, placeat tempora iusto magni similique.</p>
+                <aside>
+                    <span>Artigo escrito por ESTOU MUITO PUTA VSFD FVCK</span>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Guifrangolino</p>
+    </footer>
+</body>
+</html>
